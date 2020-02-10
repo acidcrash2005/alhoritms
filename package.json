@@ -1,0 +1,19 @@
+{
+  "name": "Binary",
+  "version": "1.0.0",
+  "description": "Example binary algorithm on TypeScript",
+  "main": "index.ts",
+  "author": "Gennadiy Karachentsev",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc ./src/index.ts --downlevelIteration && node ./src/index.js"
+  },
+  "dependencies": {
+    "lorem-ipsum": "^2.0.3",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/lorem-ipsum": "^2.0.0",
+    "@types/node": "^13.7.0"
+  }
+}
