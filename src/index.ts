@@ -1,9 +1,4 @@
 import {createInterface} from 'readline';
-import {getSortedLoremArrayWords} from './utils/getLoremArrayWords';
-
-const words = getSortedLoremArrayWords(100);
-
-console.log(words);
 
 const rl = createInterface({
     input: process.stdin,

@@ -21,9 +21,6 @@ var __spread = (this && this.__spread) || function () {
 };
 exports.__esModule = true;
 var readline_1 = require("readline");
-var getLoremArrayWords_1 = require("./utils/getLoremArrayWords");
-var words = getLoremArrayWords_1.getSortedLoremArrayWords(100);
-console.log(words);
 var rl = readline_1.createInterface({
     input: process.stdin,
     output: process.stdout
